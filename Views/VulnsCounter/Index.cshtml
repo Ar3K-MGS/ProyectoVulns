@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "VulnsCounter";
+}
+
+<form enctype="multipart/form-data" method="POST" asp-controller="VulnsCounter" asp-action="UploadFile">
+    <dl>
+            <dt>
+                <label>Upload</label>
+            </dt>
+            <dd>
+                <input type="file" name="FormFile" id="FormFile">
+            </dd>
+
+
+		<dt>
+                <label>ID del cliente</label>
+            </dt>
+            
+	<dd>
+                <input type="int" name="cliente" id="cliente">
+            </dd>
+
+
+
+    </dl>
+    <input class="btn" type="submit" value="Upload"/>
+</form>
+
+<P>
+<br>
+1. Test
+<br>
+2. Test2
+<br>
+3. Aceros del toro
+<br>
+4. BMW
+<br>
+5. Sodexo
+<br>
+6. 7 Eleven
+
+
+</p>
+
